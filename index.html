@@ -5,9 +5,6 @@
   <title>Entrenadoddddr Digital - Mouse y Teclado (Adultos Mayores)</title>
   <style>
     :root{
-      --bg:#0b2545;
-      --card:#ffffff;
-      --accent:#1a73e8;
       --large:32px;
     }
     html,body{height:100%;margin:0;font-family:Segoe UI,Arial,Helvetica,sans-serif;background:var(--bg);color:var(--card)}
@@ -109,15 +106,24 @@
 
     /* Color-blind friendly themes */
     [data-theme="normal"] {
+      --bg: #0b2545;
+      --card: #ffffff;
+      --accent: #1a73e8;
       --success: #2e7d32;
       --error: #c62828;
     }
     [data-theme="protanopia"] {
-      --success: #2196f3; /* Bright Blue */
-      --error: #ff9800;   /* Orange */
+      --bg: #2c3e50;
+      --card: #ecf0f1;
+      --accent: #3498db;
+      --success: #2980b9; /* Strong Blue */
+      --error: #f1c40f;   /* Yellow */
     }
     [data-theme="deuteranopia"] {
-      --success: #007bff; /* Strong Blue */
+      --bg: #1e1e2e;
+      --card: #fde2e4;
+      --accent: #ff6b6b;
+      --success: #00c49a; /* Cyan */
       --error: #ffc107;   /* Yellow */
     }
   </style>
